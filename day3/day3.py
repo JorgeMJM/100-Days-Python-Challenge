@@ -32,3 +32,19 @@ def bmi_indicator():
         print(f"Your BMI is {round(bmi)}, you are obese.")
     else:
         print(f"Your BMI is {round(bmi)}, you are clinically obese")
+
+#Write a program that works out whether if a given year is a leap year.
+# A normal year has 365 days, leap years have 366, with an extra day in February.
+
+def leapYear():
+    year = int(input("Which year do you want to check? "))
+    if year % 4 == 0:
+        if year % 100 == 0:
+            if year % 400 == 0:
+                print("Leap year.")
+            else:
+                print("Not Leap year.")
+        else:
+            print("Leap year.")
+    else:
+        print("Not leap year.")
