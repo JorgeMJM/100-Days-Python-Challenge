@@ -57,4 +57,4 @@ def exercise4():
 # aux2 = b
 # a = aux2
 # b = aux1
-#This will work for the codingroom, but it is an inneficcient way to do it because it will take more mememory
+#This will work for the codingroom, but it is an inneficcient way to do it because it will take more memory
