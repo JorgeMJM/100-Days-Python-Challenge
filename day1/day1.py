@@ -22,4 +22,7 @@ def exercise2():
     print('e.g. print("Hello " + "world")')
     print("New lines can be created with a backslash and n.")
 
-def exercise3
+#In this excersise we need to print the length of any name
+def exercise3():
+    name = input("What's your name?")
+    print(len(name))
