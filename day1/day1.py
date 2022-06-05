@@ -58,3 +58,14 @@ def exercise4():
 # a = aux2
 # b = aux1
 #This will work for the codingroom, but it is an inneficcient way to do it because it will take more memory
+
+#This project is not on Coderooms but it appears on the udemy curse, so I tooked the time to do it.
+
+
+def project():
+    print("Welcome to Band Name Generator.")
+    print("What's name of the city you grew ip in?")
+    city = input()
+    print("What's your pet's name?")
+    pet = input()
+    print(f"Your band name could be {city} {pet}")

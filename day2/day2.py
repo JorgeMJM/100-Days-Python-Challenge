@@ -32,3 +32,10 @@ def exercise3():
     z = until * 12 - int(age) * 12
     print(f"You have {x} days, {y} weeks, and {z} months left")
 
+def project():
+    print("Welcome to the tip calculator.")
+    total = input("What was the total bill ? ")
+    tipPercent = input("What percentage tip would you like to give? 10, 12, or 15 ? ")
+    totalPeople = input("How many people to split the bill? ")
+    totalPerson = int(total) * (1 + int(tipPercent) / 100) / int(totalPeople)
+    print(f"Each Person should pay: $" + "{:.2f}".format(totalPerson))
