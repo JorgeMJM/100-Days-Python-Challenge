@@ -112,4 +112,32 @@ def pizzaChanllenge():
     else:
         print("Select a pizza size please")
 
+def treasureIsland():
+    print("Welcome to Treasure Island")
+    print("Your mission is to find the treasure")
+    print("You're on a cross road. Where do you want to go? Type " +'"left" or "right"')
+    input1 = input()
+    if input1 == "left":
+        print("You come to a lake. There is an island in the middle of the lake. Type "+'"wait" to wait for a boat. Type "swim" to swim across.')
+        input2 = input()
+        if input2 == "wait":
+            print("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which color do you choose?")
+            input3 = input()
+            if input3 == "red":
+                print("Burned by fire")
+                print("Game Over")
+            elif input3 == "blue":
+                print("Eaten by beasts.")
+                print("Game Over.")
+            elif input3 == "yellow":
+                print("You Win!")
+            else:
+                print("Game Over")
 
+
+        else:
+            print("Attacked by tryout.")
+            print("Game Over.")
+    else:
+        print("Fall into a hole.")
+        print("Game Over.")
